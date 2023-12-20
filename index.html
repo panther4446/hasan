@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Phone Search</title>
+    <link rel="stylesheet" href="index.css">
+   
+</head>
+<body>
+
+    <label for="searchCategory">Search By:</label>
+    <select id="searchCategory">
+        <option value="Model">Model</option>
+        <option value="Company">Company</option>
+        <option value="Price">Price</option>
+        <option value="Camera">Camera</option>
+        <!-- Add more options as needed -->
+    </select>
+
+    <label for="searchPrice">Search By Price:</label>
+    <input type="text" id="searchPrice">
+    <button onclick="search()">Search</button>
+
+    <ul id="mobileList">
+        <!-- Mobile phones will be dynamically added here -->
+    </ul>
+</body>
+<script src="index.js"></script>
+</html>
